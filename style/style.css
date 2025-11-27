@@ -63,9 +63,11 @@ img {
     height: 100%;
 }
 
-button {
+.button__signup {
     background-color: #3882F6;
     color: white;
     font-weight: 900;
     padding: 8px 32px;
+    border-radius: 8px;
+    width: 120px;
 }
