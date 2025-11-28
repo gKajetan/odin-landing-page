@@ -33,7 +33,7 @@ ul {
 .hero {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1F2937;
     color: #F9FAF8;;
     padding: 16px 128px;
@@ -115,11 +115,10 @@ ul {
     flex-direction: column;
     background-color: #E5E7EB;
     align-items: center;
-    padding: 64px;
+    padding: 100px 300px;
 }
 
 .quote__text {
-    max-width: 600px;
     font-size: 36px;
     font-weight: 300px;
 }
@@ -127,6 +126,6 @@ ul {
 .quote__author {
     max-width: 600px;
     text-align: right;
-    padding-left: 200px;
     font-weight: bold;
+    align-self: flex-end;
 }
