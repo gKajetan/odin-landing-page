@@ -129,3 +129,36 @@ ul {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.popup {
+    display: flex;
+    background-color: #3882F6;
+    margin: 64px 256px;  
+    padding: 32px 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    color: white;
+    flex-shrink: 0;
+}
+
+.adtitle {
+    font-weight: 900;
+}
+
+.button__signup--2 {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 900;
+    padding: 8px 32px;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 120px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 32px 64px;
+}
